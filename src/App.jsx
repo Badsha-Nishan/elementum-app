@@ -11,8 +11,7 @@ function App() {
 
   return (
     <>
-      <section className="max-w-[1920px] mx-auto w-full">
-        <Navbar />
+      <section className="max-w-[1920px] mx-auto w-full font-satoshi">
         <Hero />
         <div></div>
       </section>
