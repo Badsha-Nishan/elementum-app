@@ -54,7 +54,7 @@ export default function TestimonialsSection() {
   ];
 
   return (
-    <section className="relative w-full max-w-[1920px] mx-auto bg-white px-[120px] py-[100px] min-h-[900px] overflow-hidden flex flex-col items-center">
+    <section className="relative w-full max-w-[1920px] mx-auto bg-white px-5 lg:px-[120px] py-[100px] min-h-[900px] overflow-hidden flex flex-col items-center">
       {/*  CUSTOMER AVATARS  */}
       {avatars.map((avatar) => (
         <div
@@ -81,7 +81,7 @@ export default function TestimonialsSection() {
         </h2>
 
         {/* Testimonial Card */}
-        <div className="relative bg-[#F4F9F6] rounded-[40px] px-[80px] py-[60px] w-full shadow-sm">
+        <div className="relative bg-[#F4F9F6] rounded-[40px] lg:px-[80px] py-[60px] w-full shadow-sm">
           <div className="absolute top-8 left-10 text-[#CBDED5] text-[100px] font-serif leading-none select-none pointer-events-none">
             “
           </div>

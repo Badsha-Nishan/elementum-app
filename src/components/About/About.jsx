@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="relative w-full max-w-[1920px] mx-auto py-24 px-[160px] overflow-hidden">
+    <section className="relative w-full max-w-[1920px] mx-auto py-24 px-5 lg:px-[160px] overflow-hidden">
       <div className="relative flex flex-col lg:flex-row items-center gap-3 justify-between mb-48">
         <div className="max-w-[800px]">
           <h2 className="font-gerbil text-3xl md:text-4xl lg:text-[56px] leading-tight mb-8">

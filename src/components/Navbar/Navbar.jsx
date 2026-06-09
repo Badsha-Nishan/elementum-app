@@ -48,7 +48,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {open && (
-        <div className="absolute top-20 left-0 w-full bg-white shadow-md flex flex-col items-center py-6 gap-6 md:hidden">
+        <div className="absolute top-20 left-0 w-full bg-white z-50 shadow-md flex flex-col items-center py-6 gap-6 md:hidden">
           {menuItems.map((item) => (
             <NavLink
               key={item.path}
