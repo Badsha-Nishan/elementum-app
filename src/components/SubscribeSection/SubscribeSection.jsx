@@ -1,6 +1,6 @@
 export default function SubscribeSection() {
   return (
-    <section className="relative w-full max-w-[1920px] mx-auto bg-[#DBEFE0] px-5 lg:px-[120px] pt-[140px] pb-[80px] overflow-hidden flex flex-col items-center text-center">
+    <section className="relative w-full max-w-[1920px] mx-auto bg-[#D7EEDD] px-5 lg:px-[120px] pt-[140px] pb-[80px] overflow-hidden flex flex-col items-center text-center">
       {/* Arrow top */}
       <img
         src="/images/Vector111.png"

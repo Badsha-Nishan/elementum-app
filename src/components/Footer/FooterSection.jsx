@@ -9,7 +9,7 @@ export default function FooterSection() {
   };
 
   return (
-    <footer className="w-full max-w-[1920px] mx-auto bg-[#DBEFE0] px-5 lg:px-[120px] pb-[40px]">
+    <footer className="w-full max-w-[1920px] mx-auto bg-[#D7EEDD] px-5 lg:px-[120px] pb-[40px]">
       {/* Clean thin horizontal rule separating subscribe from footer content */}
       <div className="w-full border-t border-gray-400/60 mb-[80px]" />
 
