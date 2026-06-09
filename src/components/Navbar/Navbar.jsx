@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center h-20 px-6 md:px-20 border relative">
+    <nav className="fixed top-0 left-0 w-full flex justify-between items-center h-20 px-6 md:px-20 bg-white z-50">
       {/* Logo */}
       <NavLink to={"/"} className="font-gerbil text-2xl md:text-3xl">
         Elementum
