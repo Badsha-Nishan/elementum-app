@@ -39,7 +39,7 @@ const Hero = () => {
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       />
       <motion.img
-        className="absolute top-84 right-162 -z-30"
+        className="absolute top-62 right-162 -z-30"
         src="/images/Vector6.png"
         alt="Vector Accent"
         animate={{ rotate: [0, 5, 0] }}
