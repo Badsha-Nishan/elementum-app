@@ -5,6 +5,7 @@ import heroImg from "./assets/hero.png";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import AboutSection from "./components/About/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +14,7 @@ function App() {
     <>
       <section className="max-w-[1920px] mx-auto w-full font-satoshi">
         <Hero />
-        <div></div>
+        <AboutSection />
       </section>
     </>
   );

@@ -15,7 +15,9 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center h-20 px-6 md:px-20 border relative">
       {/* Logo */}
-      <div className="font-gerbil text-2xl md:text-3xl">Elementum</div>
+      <NavLink to={"/"} className="font-gerbil text-2xl md:text-3xl">
+        Elementum
+      </NavLink>
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-10 text-lg">
